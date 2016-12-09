@@ -1,0 +1,35 @@
+# dependencies
+  highlighter:     rouge
+  kramdown:
+    auto_ids:      true
+  markdown:        kramdown
+
+# permalinks
+  permalink:       pretty
+
+# server
+  destination:     gh-pages
+  encoding:        UTF-8
+  exclude:         [assets/]
+  gems:
+                   - jekyll-redirect-from
+                   - jekyll-sitemap
+  host:            0.0.0.0
+  prot:            9999
+  source:          templates
+  url:             https://daemonite.github.io/material
+
+# social
+  author:          Daemonite
+  description:     Daemonite's Material UI is a cross-platform and fully responsive front-end interface based on Google Materal Design developed using Bootstrap 4
+  title:           Material
+
+# vars
+  cdn:
+    bs:            https://maxcdn.bootstrapcdn.com/bootstrap
+    bs_doc:        https://v4-alpha.getbootstrap.com/assets/css/docs.min.css
+    md_font:       https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i
+    md_icon:       https://fonts.googleapis.com/icon?family=Material+Icons
+    jquery:        https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js
+    tether:        https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js
+  current_version: 4.0.0-alpha.5
