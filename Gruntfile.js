@@ -154,6 +154,19 @@ module.exports = function(grunt) {
         }
       },
 
+      prettify: {
+        options: {
+          indent_inner_html: false
+        },
+        material: {
+          cwd: 'gh-pages/',
+          dest: 'gh-pages/',
+          expand: true,
+          ext: '.html',
+          src: ['**/*.html']
+        }
+      },
+
       sass: {
         material: {
           options: sassOptions,
